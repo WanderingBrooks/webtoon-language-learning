@@ -1,4 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# webtoon-language-learning
+
+## Overview
+
+This was created with the hope of using webtoons as a medium to facilitate language learning while doing something fun. The main idea is to get the same webtoon in two languages (One your learning and one you know). Show the language you are trying to learn and if you don't know a word or want clarification you can click on an image and it'll swap the language to the one you know. However, there are some difficulties with the way images are formatted. For example both webtoons.com and comic.naver.com are both platforms created by Naver the korean media company. However the way they distribute and format the images making up the webtoon are very different. For example 1 "image" in comic.naver.com could be 4 images from webtoon.com. This lead to scaling issues as well as issues with maintaining scroll position as the images are of different lengths and widths. There may be a more elegant solution for formatting the images. However, from what I can tell there isn't a discernable pattern that spans different webtoons. For example, all chapters of one will be formatted the same way but for a different one although consistent with itself is not consistent with the other existing webtoons. This may be worked on later and technically works now for Indonesian, Korean, Thai, Chiniese (simplified and traditional), and English.
+
+
+## Create React App Scripts below
 
 ## Available Scripts
 
@@ -36,33 +43,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
